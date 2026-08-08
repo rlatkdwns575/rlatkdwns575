@@ -18,8 +18,6 @@
 
 ## 🧰 Tech Stack
 
-## 🧰 Tech Stack
-
 ### 💻 Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
@@ -94,7 +92,7 @@
 
 **Tech Stack**
 
-`Python` `LangChain` `Pinecone` `RAG` `LLM` `Flutter`
+`Python` `LangChain` `Pinecone` `RAG` `LLM` `Flutter` `GitHub`
 
 ---
 
