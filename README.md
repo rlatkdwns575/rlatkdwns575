@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Sangjun Kim!
 
-🎓 Physics & Astronomy + Software Engineering
-🤖 AI Engineer | AI Agent Developer
-🌱 Building AI-powered services from **data to real-world applications**
+* 🎓 Physics & Astronomy + Software Engineering
+* 🤖 AI Engineer | AI Agent Developer
+* 🌱 Building AI-powered services from **data to real-world applications**
 
 ---
 
@@ -104,14 +104,6 @@
 * 🤖 LLM / RAG / AI Agent
 * 🏗️ AI Service Architecture
 * 📱 Mobile AI Applications
-
----
-
-## 📊 GitHub Stats
-
-![Sangjun's GitHub stats](https://github-readme-stats.vercel.app/api?username=rlatkdwns575\&show_icons=true\&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rlatkdwns575\&layout=compact\&hide_border=true)
 
 ---
 
