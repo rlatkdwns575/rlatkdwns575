@@ -6,6 +6,12 @@
 
 ---
 
+> ### [▶ 포트폴리오 웹사이트 바로가기](https://rlatkdwns575.github.io/rlatkdwns575/)
+>
+> 데이터·AI 프로젝트를 인터랙티브하게 정리한 포트폴리오 사이트입니다. (프로젝트 카드를 클릭하면 검증·성과, 기술 스택, 구조, 링크를 볼 수 있습니다.)
+
+---
+
 ## 🧑‍💻 About Me
 
 * 🔭 Interested in **AI Engineering, LLM, RAG, and AI Agents**

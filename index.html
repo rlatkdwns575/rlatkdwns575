@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIM SANG JUNE · AI Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav-logo"><span class="nav-logo-bracket">&lt;</span>KIM SANG JUNE<span class="nav-logo-bracket">/&gt;</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#info">Info</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-main">
+                    <p class="eyebrow mono">AI ENGINEER / AX ENGINEER · SEOUL</p>
+                    <h1>데이터를 지능으로,<br>지능을 <span class="u-accent">쓸 수 있는 서비스</span>로.</h1>
+                    <p class="lead">
+                        물리천문학과 소프트웨어를 복수전공하며 데이터 분석과 머신러닝을 익혔고,
+                        지금은 LLM·RAG·AI Agent를 활용해 데이터부터 실제 서비스까지 end-to-end로 만듭니다.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-solid">프로젝트 보기</a>
+                        <a href="https://github.com/rlatkdwns575" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">GitHub ↗</a>
+                    </div>
+                    <ul class="hero-meta mono">
+                        <li><span>EMAIL</span> <a href="mailto:wb001223@gmail.com">wb001223@gmail.com</a></li>
+                        <li><span>GITHUB</span> <a href="https://github.com/rlatkdwns575" target="_blank" rel="noopener noreferrer">@rlatkdwns575</a></li>
+                        <li><span>BLOG</span> <a href="https://osotil.tistory.com/" target="_blank" rel="noopener noreferrer">osotil.tistory.com</a></li>
+                    </ul>
+                </div>
+                <aside class="hero-side">
+                    <div class="portrait">
+                        <img src="profile.png" alt="김상준 프로필 이미지" width="360" height="360">
+                    </div>
+                    <dl class="facts mono">
+                        <div><dt>FOCUS</dt><dd>LLM · RAG · Agent</dd></div>
+                        <div><dt>MAIN</dt><dd>Python · Flutter · FastAPI</dd></div>
+                        <div><dt>CERT</dt><dd>정보처리기사 · ADsP</dd></div>
+                        <div><dt>LANG</dt><dd>TOEIC 915 · Speaking AL</dd></div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <header class="sec-head">
+                    <span class="sec-index mono">01</span>
+                    <h2>소개</h2>
+                    <p>데이터 해석부터 서비스 구현까지 연결하는 사람</p>
+                </header>
+
+                <div class="about-grid">
+                    <div class="prose">
+                        <p>
+                            세종대학교에서 물리천문학과 소프트웨어학을 복수전공하며 데이터 분석과 머신러닝의 기본기를 다졌습니다.
+                            모델 성능 수치에 그치지 않고, 어떤 데이터를 남기고 어떤 기준으로 해석해 의사결정에 사용할지
+                            구조화하는 과정을 좋아합니다.
+                        </p>
+                        <p>
+                            지금은 LLM·RAG·AI Agent를 중심으로, AI 모델과 데이터를 실제로 쓸 수 있는 end-to-end 서비스로
+                            만드는 일에 집중하고 있습니다. 모델의 출력에서 끝내지 않고, 그 결과를 사용자가 실제로 쓰는
+                            화면과 흐름까지 책임지는 것을 원칙으로 합니다.
+                        </p>
+                    </div>
+                    <div class="about-side">
+                        <p class="side-title">지금 집중하는 것</p>
+                        <ul class="dash-list">
+                            <li>AI Engineering · LLM · RAG · AI Agent</li>
+                            <li>데이터 분석 · 머신러닝 · AI 서비스 개발</li>
+                            <li>효율적인 데이터 구조와 서비스 아키텍처 설계</li>
+                            <li>FastAPI · Agentic AI · RAG 평가 · 백엔드 시스템 탐구</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="role-grid">
+                    <div class="role-card">
+                        <span class="role-tag mono">AI Engineer</span>
+                        <h3>AI를 서비스로 만드는 사람</h3>
+                        <ul class="dash-list">
+                            <li>LLM·RAG·AI Agent 기반 AI 서비스 설계와 구현에 집중합니다.</li>
+                            <li>Qwen3-1.7B를 QLoRA로 파인튜닝하고 로컬 추론 파이프라인을 구성했습니다.</li>
+                            <li>RAG가 사용자의 사실만 근거로 안정적으로 동작하도록 설계·검증합니다.</li>
+                            <li>대표 경험: JasoSupporter, jasosupporter-ml</li>
+                        </ul>
+                    </div>
+                    <div class="role-card">
+                        <span class="role-tag mono">AX Engineer · AI Transformation</span>
+                        <h3>데이터로 문제를 전환하는 사람</h3>
+                        <ul class="dash-list">
+                            <li>데이터 분석과 머신러닝으로 현실 문제를 해결 가능한 형태로 재정의합니다.</li>
+                            <li>분석 결과를 모바일·웹 서비스의 실제 사용자 경험으로 연결합니다.</li>
+                            <li>LG Hair Refresher: AI를 서비스 안에서 어디에, 어떻게 쓸지 설계했습니다.</li>
+                            <li>대표 경험: LG Hair Refresher, Currency Decision Maker</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <header class="sec-head">
+                    <span class="sec-index mono">02</span>
+                    <h2>프로젝트</h2>
+                    <p>카드를 클릭하면 검증·성과, 기술 스택, 구조, 링크를 볼 수 있습니다</p>
+                </header>
+
+                <div class="project-grid">
+                    <article class="project-card" data-project="jaso-supporter" tabindex="0">
+                        <div class="project-card-top">
+                            <img class="project-logo" src="assets/logo-jaso.svg" alt="JasoSupporter 로고" width="46" height="46">
+                            <span class="project-tag">RAG · AI Agent</span>
+                            <span class="project-index mono">01</span>
+                        </div>
+                        <h3>JasoSupporter — 자소서·커리어 AI 코치</h3>
+                        <p>
+                            경험을 사실 단위로 구조화해 마스터 자소서·면접 답변으로 재사용하고,
+                            로컬 파인튜닝 모델이 사용자 사실만으로 글쓰기를 돕는 Flutter + FastAPI 앱.
+                        </p>
+                        <div class="project-foot">
+                            <span class="project-result">Qwen3-1.7B · QLoRA SFT</span>
+                            <span class="project-more mono">자세히 →</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="currency-decision" tabindex="0">
+                        <div class="project-card-top">
+                            <img class="project-logo" src="assets/logo-currency.svg" alt="Currency Decision Maker 로고" width="46" height="46">
+                            <span class="project-tag">Data · ML</span>
+                            <span class="project-index mono">02</span>
+                        </div>
+                        <h3>USD/KRW 장기 투자 의사결정 모델</h3>
+                        <p>
+                            환율·거시경제 데이터를 통합해 "지금 매수하면 6개월 뒤 연환산 7% 이상 수익이
+                            기대되는가"를 판단하는 Transformer 기반 이진 분류 모델.
+                        </p>
+                        <div class="project-foot">
+                            <span class="project-result">126 거래일 · 7% 기준</span>
+                            <span class="project-more mono">자세히 →</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-project="lg-hair-refresher" tabindex="0">
+                        <div class="project-card-top">
+                            <img class="project-logo" src="assets/logo-hair.svg" alt="LG Hair Refresher 로고" width="46" height="46">
+                            <span class="project-tag">AI Service · Flutter</span>
+                            <span class="project-index mono">03</span>
+                        </div>
+                        <h3>LG Hair Refresher — 모발·두피 케어 앱</h3>
+                        <p>
+                            디바이스와 연동해 모발·두피 상태를 측정하고, 상태·환경 정보를 바탕으로
+                            리프레시 모드를 추천하며 사용 기록을 관리하는 Flutter 앱.
+                        </p>
+                        <div class="project-foot">
+                            <span class="project-result">LG DX School · 우수상</span>
+                            <span class="project-more mono">자세히 →</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="section">
+            <div class="container">
+                <header class="sec-head">
+                    <span class="sec-index mono">03</span>
+                    <h2>인적사항 · 기술</h2>
+                    <p>주력(Main)과 보조(Secondary)로 나눈 기술 스택</p>
+                </header>
+
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>기본 정보</h3>
+                        <ul class="info-list">
+                            <li><strong>이름</strong><span>김상준 (KIM SANG JUNE)</span></li>
+                            <li><strong>이메일</strong><span>wb001223@gmail.com</span></li>
+                            <li><strong>GitHub</strong><span>@rlatkdwns575</span></li>
+                            <li><strong>직무</strong><span>AI Engineer · AX Engineer · AI Agent Developer</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>학력</h3>
+                        <ul class="education-list">
+                            <li><strong>세종대학교</strong><span>물리천문학과 · 소프트웨어학과 복수전공</span></li>
+                            <li><strong>오금고등학교</strong><span>이공계</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card full">
+                        <h3>기술 스택</h3>
+                        <div class="stack-groups">
+                            <div class="stack-group stack-main">
+                                <div class="stack-tier-head">
+                                    <span class="stack-tier mono">Main</span>
+                                    <span class="stack-tier-note">실무·프로젝트에서 주력으로 사용</span>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">Language</p>
+                                    <div class="stack-badges">
+                                        <span>Python</span>
+                                    </div>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">AI &amp; Data</p>
+                                    <div class="stack-badges">
+                                        <span>LLM</span>
+                                        <span>RAG</span>
+                                        <span>Qwen3-1.7B</span>
+                                        <span>QLoRA SFT</span>
+                                        <span>PyTorch</span>
+                                        <span>Matplotlib</span>
+                                    </div>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">App &amp; Service</p>
+                                    <div class="stack-badges">
+                                        <span>Flutter</span>
+                                        <span>Supabase</span>
+                                        <span>Gemini API</span>
+                                    </div>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">Workflow</p>
+                                    <div class="stack-badges">
+                                        <span>Git</span>
+                                        <span>GitHub</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="stack-group stack-secondary">
+                                <div class="stack-tier-head">
+                                    <span class="stack-tier mono">Secondary</span>
+                                    <span class="stack-tier-note">학습했고 보조적으로 활용 (아직 주력은 아님)</span>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">Languages</p>
+                                    <div class="stack-badges">
+                                        <span>Java</span>
+                                        <span>Dart</span>
+                                        <span>C / C++</span>
+                                    </div>
+                                </div>
+                                <div class="stack-sub">
+                                    <p class="stack-sub-label">Frameworks &amp; Tools</p>
+                                    <div class="stack-badges">
+                                        <span>FastAPI</span>
+                                        <span>LangChain</span>
+                                        <span>Spring</span>
+                                        <span>MySQL</span>
+                                        <span>Docker</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card full">
+                        <h3>자격증 · 어학</h3>
+                        <ul class="cert-list">
+                            <li><span class="cert-name">정보처리기사</span><span class="cert-score">국가기술자격</span></li>
+                            <li><span class="cert-name">ADsP</span><span class="cert-score">데이터분석 준전문가</span></li>
+                            <li><span class="cert-name">TOEIC</span><span class="cert-score">915</span></li>
+                            <li><span class="cert-name">TOEIC Speaking</span><span class="cert-score">AL</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container contact-box">
+                <div>
+                    <span class="sec-index mono">04 · CONTACT</span>
+                    <h2>함께 만들고 싶은 것이 있다면</h2>
+                    <p>데이터와 AI를 실제 서비스로 연결하는 일에 늘 열려 있습니다. 편하게 연락 주세요.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:wb001223@gmail.com">wb001223@gmail.com</a>
+                    <a href="https://github.com/rlatkdwns575" target="_blank" rel="noopener noreferrer">github.com/rlatkdwns575</a>
+                    <a href="https://osotil.tistory.com/" target="_blank" rel="noopener noreferrer">osotil.tistory.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>© <span id="current-year"></span> KIM SANG JUNE</span>
+            <span class="mono">Built with HTML · CSS · JS</span>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal hidden" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <button class="modal-close" id="modal-close-btn" aria-label="팝업 닫기">×</button>
+            <div class="modal-head">
+                <img id="modal-logo" class="modal-logo" alt="" width="56" height="56">
+                <div>
+                    <span id="modal-category" class="modal-category"></span>
+                    <h3 id="modal-title"></h3>
+                </div>
+            </div>
+            <p id="modal-summary" class="modal-summary"></p>
+            <div id="modal-image" class="modal-image"></div>
+
+            <div class="modal-section" id="modal-validation"></div>
+
+            <div class="modal-section">
+                <h4>기술 스택</h4>
+                <div id="modal-stacks" class="modal-badges"></div>
+            </div>
+
+            <div class="modal-section">
+                <h4>프로젝트 구조</h4>
+                <ul id="modal-structure" class="modal-list"></ul>
+            </div>
+
+            <div class="modal-section">
+                <h4>상세 내용</h4>
+                <ul id="modal-details" class="modal-list"></ul>
+            </div>
+
+            <div class="modal-actions" id="modal-links"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

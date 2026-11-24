@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="JasoSupporter logo">
+  <rect x="6" y="6" width="108" height="108" rx="26" fill="#17181a"/>
+  <rect x="37" y="28" width="46" height="60" rx="7" fill="none" stroke="#ffffff" stroke-width="3.6"/>
+  <line x1="47" y1="45" x2="73" y2="45" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+  <line x1="47" y1="56" x2="73" y2="56" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+  <line x1="47" y1="67" x2="63" y2="67" stroke="#ffffff" stroke-width="3.4" stroke-linecap="round"/>
+  <rect x="47" y="76" width="15" height="4.4" rx="2.2" fill="#49b38a"/>
+</svg>
